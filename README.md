@@ -55,4 +55,3 @@ For more details on configuring and customizing the grid, refer to the official 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-# symbols-grid-cli

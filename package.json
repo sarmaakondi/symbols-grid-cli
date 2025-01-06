@@ -5,14 +5,34 @@
         "symbols-grid-cli": "./cli.js"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "npm run build"
     },
-    "keywords": [],
+    "keywords": [
+        "cli",
+        "symbols",
+        "grid",
+        "starter-kit"
+    ],
     "author": "Sarma Akondi",
     "license": "MIT",
     "description": "A CLI tool to manage Symbols starter kit",
     "dependencies": {
         "commander": "^13.0.0",
         "simple-git": "^3.27.0"
+    },
+    "files": [
+        "cli.js",
+        "README.md",
+        "src",
+        "bin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sarmaakondi/symbols-grid-cli.git"
+    },
+    "homepage": "https://github.com/sarmaakondi/symbols-grid-cli#readme",
+    "bugs": {
+        "url": "https://github.com/sarmaakondi/symbols-grid-cli/issues"
     }
 }
